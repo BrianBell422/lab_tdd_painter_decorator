@@ -3,14 +3,14 @@ const Paint = require('../paint.js')
 
 describe('Paint', function () {
 
-    let paint;
+    let paint1;
 
     beforeEach(function () {
-        paint = new Paint(20)
+        paint1 = new Paint(20)
     })
 
     it('should have a number of litres', function () {
-        const actual = paint.litres;
+        const actual = paint1.litres;
         assert.strictEqual(actual, 20)
     })
 
